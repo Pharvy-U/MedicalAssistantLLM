@@ -6,6 +6,6 @@ services:
       dockerfile: Dockerfile
     image: modbot:5.0
     ports:
-      - 8000:8001
+      - 80:8001
     environment: 
       - PORT=8001
